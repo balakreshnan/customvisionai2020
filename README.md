@@ -12,3 +12,11 @@ Steps to Follow:
 - Log into Custom Vision validate the bounding boxes
 - Train the model
 - Test - Validate model
+
+VIA tool links
+
+http://www.robots.ox.ac.uk/~vgg/software/via/
+
+Online Tool:
+
+http://www.robots.ox.ac.uk/~vgg/software/via/via.html
