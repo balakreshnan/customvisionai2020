@@ -20,3 +20,5 @@ http://www.robots.ox.ac.uk/~vgg/software/via/
 Online Tool:
 
 http://www.robots.ox.ac.uk/~vgg/software/via/via.html
+
+Code for Python based upload images and bounding box into azure custom vision.
