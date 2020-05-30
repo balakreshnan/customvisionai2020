@@ -122,4 +122,19 @@ for blob in blob_list:
 
 I preserved the same name so that ic an compare if needed. Also i am doing single file at a time, parallelizing this might be a another great article for future.
 
+Here is to count the size
+
+```
+print("\nListing blobs...")
+count = 0
+
+# List the blobs in the container
+blob_list = blob_service_client.get_container_client("destinationcontainername").list_blobs()
+for blob in blob_list:
+    #print("\t" + blob.name)
+    count += 1
+    
+print("Total Files in container: " + str(count))
+```
+
 Thanks
