@@ -7,7 +7,7 @@ Here is a script to resize images to 6MB. The data set i have varies from 4MB to
 
 ## Challenge
 
-Image resize can be accomplished even in a local computer, but here is the challenge takes a longer time and occupies's CPU of the laptop or computer locally. 
+Image resize can be accomplished even in a local computer, but here is the challenge takes a longer time and occconsumes CPU of the laptop or computer locally. 
 
 ## Solution
 
