@@ -1,4 +1,4 @@
-# ReSize Images
+# Image Data Labelling - large volume using Machine Learning
 
 ## Use Case
 
