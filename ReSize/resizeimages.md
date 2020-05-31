@@ -15,6 +15,10 @@ To make the solution not dependant on local resource and to increase scale as ne
 
 Moving the files to cloud blob storage can be achieved by any data movement tools like Azure data factory to move the data.
 
+## Architecture
+
+![alt text](https://github.com/balakreshnan/customvisionai2020/blob/master/images/mlassitresize.jpg "Architecture")
+
 ## Steps to resize
 
 - Create a Blob Storage account
