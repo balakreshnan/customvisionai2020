@@ -5,6 +5,16 @@
 To build object detection model using custom vision or ML assisted data labelling we need to resize images which are large. 
 Here is a script to resize images to 6MB. The data set i have varies from 4MB to 14MB. When i tried ML assisted labelling it got errored out by going over the memory.
 
+## Challenge
+
+Image resize can be accomplished even in a local computer, but here is the challenge takes a longer time and occupies's CPU of the laptop or computer locally. 
+
+## Solution
+
+To make the solution not dependant on local resource and to increase scale as needed i choosed to run this code in Azure machine learning services workspace with compute instance and Notebook. This combination provides me a isolated environment in cloud and images can be stored in the cloud as well in a blob storage. This avoid network latency and all the processing in done in cloud. Now the size of compute instance is up to how much we want to use and can be scaled as needed.
+
+Moving the files to cloud blob storage can be achieved by any data movement tools like Azure data factory to move the data.
+
 ## Steps to resize
 
 - Create a Blob Storage account
@@ -136,5 +146,8 @@ for blob in blob_list:
     
 print("Total Files in container: " + str(count))
 ```
+## Time Taken
+
+For my above run it took about 30 minutes to process about 1000 images varying in size.
 
 Thanks
