@@ -103,7 +103,7 @@ container_client1 = blob_service_client.get_container_client("destinationcontain
 Here is the code to read one at a time and resize it
 
 ```
-blob_list = blob_service_client.get_container_client("excelon1").list_blobs()
+blob_list = blob_service_client.get_container_client("containername").list_blobs()
 for blob in blob_list:
         #print("\t" + blob.name)
         if("jpg" in blob.name):
